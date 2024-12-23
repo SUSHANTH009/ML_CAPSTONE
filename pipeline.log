@@ -1,0 +1,576 @@
+2024-12-18 16:40:12,271 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5050
+ * Running on http://192.168.94.215:5050
+2024-12-18 16:40:12,278 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-18 16:42:41,788 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:42:43,731 - INFO - Data added to queue: filename=1734520363717_chunk_1734520360862.webm, metadata={'latitude': '30.3530729', 'longitude': '76.365271', 'filename': '1734520363717_chunk_1734520360862.webm', 'timestamp': 1734520363717}
+2024-12-18 16:42:43,733 - INFO - 127.0.0.1 - - [18/Dec/2024 16:42:43] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:42:46,944 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:42:50,032 - INFO - Data added to queue: filename=1734520370031_chunk_1734520365834.webm, metadata={'latitude': '30.353068', 'longitude': '76.3652703', 'filename': '1734520370031_chunk_1734520365834.webm', 'timestamp': 1734520370031}
+2024-12-18 16:42:50,043 - INFO - 127.0.0.1 - - [18/Dec/2024 16:42:50] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:42:52,214 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:42:54,484 - INFO - Data added to queue: filename=1734520374483_chunk_1734520370857.webm, metadata={'latitude': '30.3530514', 'longitude': '76.3652358', 'filename': '1734520374483_chunk_1734520370857.webm', 'timestamp': 1734520374483}
+2024-12-18 16:42:54,485 - INFO - 127.0.0.1 - - [18/Dec/2024 16:42:54] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:42:56,892 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:42:59,291 - INFO - Data added to queue: filename=1734520379290_chunk_1734520375867.webm, metadata={'latitude': '30.3530499', 'longitude': '76.3652318', 'filename': '1734520379290_chunk_1734520375867.webm', 'timestamp': 1734520379290}
+2024-12-18 16:42:59,293 - INFO - 127.0.0.1 - - [18/Dec/2024 16:42:59] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:43:02,163 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:43:06,425 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:43:06,729 - INFO - Data added to queue: filename=1734520386729_chunk_1734520380851.webm, metadata={'latitude': '30.3530527', 'longitude': '76.3652353', 'filename': '1734520386729_chunk_1734520380851.webm', 'timestamp': 1734520386729}
+2024-12-18 16:43:06,731 - INFO - 127.0.0.1 - - [18/Dec/2024 16:43:06] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:43:09,542 - INFO - Data added to queue: filename=1734520389541_chunk_1734520385378.webm, metadata={'latitude': '30.3530527', 'longitude': '76.3652329', 'filename': '1734520389541_chunk_1734520385378.webm', 'timestamp': 1734520389541}
+2024-12-18 16:43:09,544 - INFO - 127.0.0.1 - - [18/Dec/2024 16:43:09] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:43:12,980 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:43:13,790 - INFO - Pothole detected in frame 1 of video 1734520363717_chunk_1734520360862.webm. Sending GPS data...
+2024-12-18 16:43:15,569 - INFO - GPS data sent successfully for frame 1 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:43:15,573 - DEBUG - Skipping frame 2 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:43:43,333 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:43:43,425 - INFO - pothole detected in 3.         
+2024-12-18 16:43:44,894 - INFO - GPS data sent successfully for frame 3 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:43:44,897 - DEBUG - Skipping frame 4 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:44:13,206 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:44:13,291 - INFO - pothole detected in 5.
+2024-12-18 16:44:15,398 - INFO - GPS data sent successfully for frame 5 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:44:15,401 - DEBUG - Skipping frame 6 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:44:43,175 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:44:43,248 - INFO - No pothole detected in 7.
+2024-12-18 16:44:44,801 - INFO - GPS data sent successfully for frame 7 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:44:44,803 - DEBUG - Skipping frame 8 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:45:12,802 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:45:12,895 - INFO - No pothole detected in 9.
+2024-12-18 16:45:14,392 - INFO - GPS data sent successfully for frame 9 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:45:14,395 - DEBUG - Skipping frame 10 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:45:41,679 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:45:41,759 - INFO - No pothole detected in 11.
+2024-12-18 16:45:42,830 - INFO - GPS data sent successfully for frame 11 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:45:42,832 - DEBUG - Skipping frame 12 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:46:10,187 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:46:10,264 - INFO - No pothole detected in 13.
+2024-12-18 16:46:12,124 - INFO - GPS data sent successfully for frame 13 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:46:12,128 - DEBUG - Skipping frame 14 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:46:39,783 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:46:39,870 - INFO - No pothole detected in 15.
+2024-12-18 16:46:41,555 - INFO - GPS data sent successfully for frame 15 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:46:41,558 - DEBUG - Skipping frame 16 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:47:10,324 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:47:10,466 - INFO - No pothole detected in 17.
+2024-12-18 16:47:11,431 - INFO - GPS data sent successfully for frame 17 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:47:11,432 - DEBUG - Skipping frame 18 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:47:39,777 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:47:39,884 - INFO - No pothole detected in 19.
+2024-12-18 16:47:40,999 - INFO - GPS data sent successfully for frame 19 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:47:41,008 - DEBUG - Skipping frame 20 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:48:09,893 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:48:09,976 - INFO - No pothole detected in 21.
+2024-12-18 16:48:12,015 - INFO - GPS data sent successfully for frame 21 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:48:12,018 - DEBUG - Skipping frame 22 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:48:39,324 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:48:39,399 - INFO - No pothole detected in 23.
+2024-12-18 16:48:40,947 - INFO - GPS data sent successfully for frame 23 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:48:40,950 - DEBUG - Skipping frame 24 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:49:08,259 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:49:08,338 - INFO - No pothole detected in 25.
+2024-12-18 16:49:09,990 - INFO - GPS data sent successfully for frame 25 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:49:09,993 - DEBUG - Skipping frame 26 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:49:37,045 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:49:37,130 - INFO - No pothole detected in 27.
+2024-12-18 16:49:38,870 - INFO - GPS data sent successfully for frame 27 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:49:38,873 - DEBUG - Skipping frame 28 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:50:05,890 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:50:05,997 - INFO - No pothole detected in 29.
+2024-12-18 16:50:06,893 - INFO - GPS data sent successfully for frame 29 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:50:06,895 - DEBUG - Skipping frame 30 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:51:16,656 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:51:16,743 - INFO - No pothole detected in 31.
+2024-12-18 16:51:18,132 - INFO - GPS data sent successfully for frame 31 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:51:18,135 - DEBUG - Skipping frame 32 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:51:48,150 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:51:48,237 - INFO - No pothole detected in 33.
+2024-12-18 16:51:49,732 - INFO - GPS data sent successfully for frame 33 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:51:49,735 - DEBUG - Skipping frame 34 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:52:17,728 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:52:17,825 - INFO - No pothole detected in 35.
+2024-12-18 16:52:18,714 - INFO - GPS data sent successfully for frame 35 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:52:18,717 - DEBUG - Skipping frame 36 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:52:42,532 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:52:43,571 - INFO - Data added to queue: filename=1734520963566_chunk_1734520961537.webm, metadata={'latitude': '30.3531493', 'longitude': '76.3601345', 'filename': '1734520963566_chunk_1734520961537.webm', 'timestamp': 1734520963566}
+2024-12-18 16:52:43,573 - INFO - 127.0.0.1 - - [18/Dec/2024 16:52:43] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:52:47,206 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:52:48,258 - INFO - Data added to queue: filename=1734520968257_chunk_1734520966538.webm, metadata={'latitude': '30.3531876', 'longitude': '76.3601956', 'filename': '1734520968257_chunk_1734520966538.webm', 'timestamp': 1734520968257}
+2024-12-18 16:52:48,264 - INFO - 127.0.0.1 - - [18/Dec/2024 16:52:48] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:52:48,927 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:52:49,000 - INFO - No pothole detected in 37.
+2024-12-18 16:52:50,502 - INFO - GPS data sent successfully for frame 37 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:52:50,506 - DEBUG - Skipping frame 38 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:52:52,188 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:52:53,030 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:52:53,671 - INFO - Data added to queue: filename=1734520973671_chunk_1734520971535.webm, metadata={'latitude': '30.3531829', 'longitude': '76.360149', 'filename': '1734520973671_chunk_1734520971535.webm', 'timestamp': 1734520973671}
+2024-12-18 16:52:53,673 - INFO - 127.0.0.1 - - [18/Dec/2024 16:52:53] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:52:53,679 - INFO - Data added to queue: filename=1734520973679_chunk_1734520972098.webm, metadata={'latitude': '30.3531801', 'longitude': '76.3601368', 'filename': '1734520973679_chunk_1734520972098.webm', 'timestamp': 1734520973679}
+2024-12-18 16:52:53,680 - INFO - 127.0.0.1 - - [18/Dec/2024 16:52:53] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:52:57,221 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:52:58,056 - INFO - Data added to queue: filename=1734520978056_chunk_1734520976540.webm, metadata={'latitude': '30.35317985', 'longitude': '76.36013915', 'filename': '1734520978056_chunk_1734520976540.webm', 'timestamp': 1734520978056}
+2024-12-18 16:52:58,079 - INFO - 127.0.0.1 - - [18/Dec/2024 16:52:58] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:53:02,196 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:53:10,765 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:53:11,074 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:53:11,663 - INFO - Data added to queue: filename=1734520991663_chunk_1734520981534.webm, metadata={'latitude': '30.3532127', 'longitude': '76.3601359', 'filename': '1734520991663_chunk_1734520981534.webm', 'timestamp': 1734520991663}
+2024-12-18 16:53:11,665 - INFO - 127.0.0.1 - - [18/Dec/2024 16:53:11] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:53:11,790 - INFO - Data added to queue: filename=1734520991789_chunk_1734520986545.webm, metadata={'latitude': '30.3531379', 'longitude': '76.3599749', 'filename': '1734520991789_chunk_1734520986545.webm', 'timestamp': 1734520991789}
+2024-12-18 16:53:11,791 - INFO - 127.0.0.1 - - [18/Dec/2024 16:53:11] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:53:11,890 - INFO - Data added to queue: filename=1734520991890_chunk_1734520987112.webm, metadata={'latitude': '30.3531266', 'longitude': '76.35993', 'filename': '1734520991890_chunk_1734520987112.webm', 'timestamp': 1734520991890}
+2024-12-18 16:53:11,892 - INFO - 127.0.0.1 - - [18/Dec/2024 16:53:11] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:53:12,031 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:53:12,451 - INFO - Data added to queue: filename=1734520992451_chunk_1734520991385.webm, metadata={'latitude': '30.3531425', 'longitude': '76.3598679', 'filename': '1734520992451_chunk_1734520991385.webm', 'timestamp': 1734520992451}
+2024-12-18 16:53:12,453 - INFO - 127.0.0.1 - - [18/Dec/2024 16:53:12] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:53:17,216 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:53:17,808 - INFO - Data added to queue: filename=1734520997808_chunk_1734520996546.webm, metadata={'latitude': '30.3531911', 'longitude': '76.3598798', 'filename': '1734520997808_chunk_1734520996546.webm', 'timestamp': 1734520997808}
+2024-12-18 16:53:17,809 - INFO - 127.0.0.1 - - [18/Dec/2024 16:53:17] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:53:22,208 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:53:22,881 - INFO - Data added to queue: filename=1734521002881_chunk_1734521001532.webm, metadata={'latitude': '30.3532529', 'longitude': '76.3598812', 'filename': '1734521002881_chunk_1734521001532.webm', 'timestamp': 1734521002881}
+2024-12-18 16:53:22,882 - INFO - 127.0.0.1 - - [18/Dec/2024 16:53:22] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:53:27,243 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:53:27,684 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:53:27,763 - INFO - No pothole detected in 39.
+2024-12-18 16:53:27,975 - INFO - Data added to queue: filename=1734521007975_chunk_1734521006564.webm, metadata={'latitude': '30.3532491', 'longitude': '76.3598852', 'filename': '1734521007975_chunk_1734521006564.webm', 'timestamp': 1734521007975}
+2024-12-18 16:53:27,976 - INFO - 127.0.0.1 - - [18/Dec/2024 16:53:27] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:53:28,241 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:53:28,704 - INFO - Data added to queue: filename=1734521008703_chunk_1734521007503.webm, metadata={'latitude': '30.3532508', 'longitude': '76.3598843', 'filename': '1734521008703_chunk_1734521007503.webm', 'timestamp': 1734521008703}
+2024-12-18 16:53:28,705 - INFO - 127.0.0.1 - - [18/Dec/2024 16:53:28] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:53:29,486 - INFO - GPS data sent successfully for frame 39 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:53:29,490 - DEBUG - Skipping frame 40 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:53:32,285 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:53:32,791 - INFO - Data added to queue: filename=1734521012790_chunk_1734521011533.webm, metadata={'latitude': '30.35325175', 'longitude': '76.35988465', 'filename': '1734521012790_chunk_1734521011533.webm', 'timestamp': 1734521012790}
+2024-12-18 16:53:32,798 - INFO - 127.0.0.1 - - [18/Dec/2024 16:53:32] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:53:32,875 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:53:33,062 - INFO - Data added to queue: filename=1734521013062_chunk_1734521012098.webm, metadata={'latitude': '30.3532517', 'longitude': '76.3598865', 'filename': '1734521013062_chunk_1734521012098.webm', 'timestamp': 1734521013062}
+2024-12-18 16:53:33,063 - INFO - 127.0.0.1 - - [18/Dec/2024 16:53:33] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:53:37,548 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:53:38,021 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:53:38,102 - INFO - Data added to queue: filename=1734521018101_chunk_1734521016557.webm, metadata={'latitude': '30.35310415', 'longitude': '76.35989425', 'filename': '1734521018101_chunk_1734521016557.webm', 'timestamp': 1734521018101}
+2024-12-18 16:53:38,104 - INFO - 127.0.0.1 - - [18/Dec/2024 16:53:38] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:53:38,265 - INFO - Data added to queue: filename=1734521018264_chunk_1734521017095.webm, metadata={'latitude': '30.3529566', 'longitude': '76.3599015', 'filename': '1734521018264_chunk_1734521017095.webm', 'timestamp': 1734521018264}
+2024-12-18 16:53:38,266 - INFO - 127.0.0.1 - - [18/Dec/2024 16:53:38] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:53:57,199 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:53:57,274 - INFO - No pothole detected in 41.
+2024-12-18 16:53:58,247 - INFO - GPS data sent successfully for frame 41 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:53:58,248 - DEBUG - Skipping frame 42 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:54:05,215 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:54:06,586 - INFO - Data added to queue: filename=1734521046585_chunk_1734521044192.webm, metadata={'latitude': '30.3532168', 'longitude': '76.3601923', 'filename': '1734521046585_chunk_1734521044192.webm', 'timestamp': 1734521046585}
+2024-12-18 16:54:06,595 - INFO - 127.0.0.1 - - [18/Dec/2024 16:54:06] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:54:09,862 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:54:11,297 - INFO - Data added to queue: filename=1734521051297_chunk_1734521049193.webm, metadata={'latitude': '30.3532095', 'longitude': '76.3601496', 'filename': '1734521051297_chunk_1734521049193.webm', 'timestamp': 1734521051297}
+2024-12-18 16:54:11,299 - INFO - 127.0.0.1 - - [18/Dec/2024 16:54:11] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:54:15,190 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:54:16,041 - INFO - Data added to queue: filename=1734521056040_chunk_1734521054195.webm, metadata={'latitude': '30.3532037', 'longitude': '76.3601188', 'filename': '1734521056040_chunk_1734521054195.webm', 'timestamp': 1734521056040}
+2024-12-18 16:54:16,043 - INFO - 127.0.0.1 - - [18/Dec/2024 16:54:16] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:54:19,852 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:54:21,130 - INFO - Data added to queue: filename=1734521061129_chunk_1734521059173.webm, metadata={'latitude': '30.353199500000002', 'longitude': '76.3600913', 'filename': '1734521061129_chunk_1734521059173.webm', 'timestamp': 1734521061129}
+2024-12-18 16:54:21,131 - INFO - 127.0.0.1 - - [18/Dec/2024 16:54:21] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:54:24,867 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:54:25,605 - INFO - Data added to queue: filename=1734521065605_chunk_1734521064173.webm, metadata={'latitude': '30.3532003', 'longitude': '76.3600926', 'filename': '1734521065605_chunk_1734521064173.webm', 'timestamp': 1734521065605}
+2024-12-18 16:54:25,608 - INFO - 127.0.0.1 - - [18/Dec/2024 16:54:25] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:54:26,694 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:54:26,777 - INFO - No pothole detected in 43.
+2024-12-18 16:54:27,731 - INFO - GPS data sent successfully for frame 43 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:54:27,733 - DEBUG - Skipping frame 44 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:54:30,038 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:54:30,871 - INFO - Data added to queue: filename=1734521070871_chunk_1734521069177.webm, metadata={'latitude': '30.35267585', 'longitude': '76.36004305', 'filename': '1734521070871_chunk_1734521069177.webm', 'timestamp': 1734521070871}
+2024-12-18 16:54:30,873 - INFO - 127.0.0.1 - - [18/Dec/2024 16:54:30] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:54:35,099 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:54:35,897 - INFO - Data added to queue: filename=1734521075896_chunk_1734521074181.webm, metadata={'latitude': '30.3531226', 'longitude': '76.3598818', 'filename': '1734521075896_chunk_1734521074181.webm', 'timestamp': 1734521075896}
+2024-12-18 16:54:35,898 - INFO - 127.0.0.1 - - [18/Dec/2024 16:54:35] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:54:40,234 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:54:41,010 - INFO - Data added to queue: filename=1734521081010_chunk_1734521079190.webm, metadata={'latitude': '30.35315', 'longitude': '76.3598472', 'filename': '1734521081010_chunk_1734521079190.webm', 'timestamp': 1734521081010}
+2024-12-18 16:54:41,012 - INFO - 127.0.0.1 - - [18/Dec/2024 16:54:41] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:54:44,882 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:54:45,833 - INFO - Data added to queue: filename=1734521085833_chunk_1734521084173.webm, metadata={'latitude': '30.3531489', 'longitude': '76.3598492', 'filename': '1734521085833_chunk_1734521084173.webm', 'timestamp': 1734521085833}
+2024-12-18 16:54:45,835 - INFO - 127.0.0.1 - - [18/Dec/2024 16:54:45] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:54:46,776 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:54:47,055 - INFO - Data added to queue: filename=1734521087055_chunk_1734521086102.webm, metadata={'latitude': '30.3531492', 'longitude': '76.3598527', 'filename': '1734521087055_chunk_1734521086102.webm', 'timestamp': 1734521087055}
+2024-12-18 16:54:47,055 - INFO - 127.0.0.1 - - [18/Dec/2024 16:54:47] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:54:56,248 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:54:56,319 - INFO - No pothole detected in 45.
+2024-12-18 16:54:57,478 - INFO - GPS data sent successfully for frame 45 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:54:57,480 - DEBUG - Skipping frame 46 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:55:07,888 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:55:09,039 - INFO - Data added to queue: filename=1734521109033_chunk_1734521107161.webm, metadata={'latitude': '30.3531464', 'longitude': '76.3595813', 'filename': '1734521109033_chunk_1734521107161.webm', 'timestamp': 1734521109033}
+2024-12-18 16:55:09,047 - INFO - 127.0.0.1 - - [18/Dec/2024 16:55:09] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:55:12,841 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:55:13,899 - INFO - Data added to queue: filename=1734521113898_chunk_1734521112164.webm, metadata={'latitude': '30.3531515', 'longitude': '76.3596242', 'filename': '1734521113898_chunk_1734521112164.webm', 'timestamp': 1734521113898}
+2024-12-18 16:55:13,900 - INFO - 127.0.0.1 - - [18/Dec/2024 16:55:13] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:55:17,819 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:55:18,450 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:55:18,921 - INFO - Data added to queue: filename=1734521118921_chunk_1734521117804.webm, metadata={'latitude': '30.3531482', 'longitude': '76.3597047', 'filename': '1734521118921_chunk_1734521117804.webm', 'timestamp': 1734521118921}
+2024-12-18 16:55:18,922 - INFO - 127.0.0.1 - - [18/Dec/2024 16:55:18] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:55:18,948 - INFO - Data added to queue: filename=1734521118947_chunk_1734521117150.webm, metadata={'latitude': '30.3531508', 'longitude': '76.3596602', 'filename': '1734521118947_chunk_1734521117150.webm', 'timestamp': 1734521118947}
+2024-12-18 16:55:18,949 - INFO - 127.0.0.1 - - [18/Dec/2024 16:55:18] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:55:19,229 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:55:19,540 - INFO - Data added to queue: filename=1734521119539_chunk_1734521118495.webm, metadata={'latitude': '30.3531482', 'longitude': '76.3597047', 'filename': '1734521119539_chunk_1734521118495.webm', 'timestamp': 1734521119539}
+2024-12-18 16:55:19,541 - INFO - 127.0.0.1 - - [18/Dec/2024 16:55:19] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:55:23,335 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:55:23,779 - INFO - Data added to queue: filename=1734521123778_chunk_1734521122183.webm, metadata={'latitude': '30.3531422', 'longitude': '76.3597297', 'filename': '1734521123778_chunk_1734521122183.webm', 'timestamp': 1734521123778}
+2024-12-18 16:55:23,784 - INFO - 127.0.0.1 - - [18/Dec/2024 16:55:23] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:55:25,685 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:55:25,829 - INFO - No pothole detected in 47.
+2024-12-18 16:55:26,822 - INFO - GPS data sent successfully for frame 47 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:55:26,829 - DEBUG - Skipping frame 48 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:55:28,079 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:55:28,476 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:55:28,505 - INFO - Data added to queue: filename=1734521128504_chunk_1734521127156.webm, metadata={'latitude': '30.353184', 'longitude': '76.359784', 'filename': '1734521128504_chunk_1734521127156.webm', 'timestamp': 1734521128504}
+2024-12-18 16:55:28,506 - INFO - 127.0.0.1 - - [18/Dec/2024 16:55:28] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:55:28,766 - INFO - Data added to queue: filename=1734521128766_chunk_1734521127798.webm, metadata={'latitude': '30.3531629', 'longitude': '76.3598067', 'filename': '1734521128766_chunk_1734521127798.webm', 'timestamp': 1734521128766}
+2024-12-18 16:55:28,767 - INFO - 127.0.0.1 - - [18/Dec/2024 16:55:28] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:55:32,881 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:55:33,610 - INFO - Data added to queue: filename=1734521133609_chunk_1734521132155.webm, metadata={'latitude': '30.3531579', 'longitude': '76.3598206', 'filename': '1734521133609_chunk_1734521132155.webm', 'timestamp': 1734521133609}
+2024-12-18 16:55:33,611 - INFO - 127.0.0.1 - - [18/Dec/2024 16:55:33] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:55:35,382 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:55:36,082 - INFO - Data added to queue: filename=1734521136082_chunk_1734521134730.webm, metadata={'latitude': '30.353161', 'longitude': '76.3598177', 'filename': '1734521136082_chunk_1734521134730.webm', 'timestamp': 1734521136082}
+2024-12-18 16:55:36,084 - INFO - 127.0.0.1 - - [18/Dec/2024 16:55:36] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:55:36,348 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:55:36,580 - INFO - Data added to queue: filename=1734521136579_chunk_1734521135615.webm, metadata={'latitude': '30.353161', 'longitude': '76.3598142', 'filename': '1734521136579_chunk_1734521135615.webm', 'timestamp': 1734521136579}
+2024-12-18 16:55:36,581 - INFO - 127.0.0.1 - - [18/Dec/2024 16:55:36] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:55:55,076 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:55:55,158 - INFO - No pothole detected in 49.
+2024-12-18 16:55:56,215 - INFO - GPS data sent successfully for frame 49 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:55:56,218 - DEBUG - Skipping frame 50 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:55:56,320 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:55:57,646 - INFO - Data added to queue: filename=1734521157646_chunk_1734521155629.webm, metadata={'latitude': '30.3531233', 'longitude': '76.3597213', 'filename': '1734521157646_chunk_1734521155629.webm', 'timestamp': 1734521157646}
+2024-12-18 16:55:57,648 - INFO - 127.0.0.1 - - [18/Dec/2024 16:55:57] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:56:01,818 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:56:03,013 - INFO - Data added to queue: filename=1734521163012_chunk_1734521160627.webm, metadata={'latitude': '30.3531399', 'longitude': '76.3597401', 'filename': '1734521163012_chunk_1734521160627.webm', 'timestamp': 1734521163012}
+2024-12-18 16:56:03,016 - INFO - 127.0.0.1 - - [18/Dec/2024 16:56:03] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:56:06,345 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:56:07,144 - INFO - Data added to queue: filename=1734521167143_chunk_1734521165625.webm, metadata={'latitude': '30.353160250000002', 'longitude': '76.3597508', 'filename': '1734521167143_chunk_1734521165625.webm', 'timestamp': 1734521167143}
+2024-12-18 16:56:07,145 - INFO - 127.0.0.1 - - [18/Dec/2024 16:56:07] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:56:09,739 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:56:10,511 - INFO - Data added to queue: filename=1734521170510_chunk_1734521169093.webm, metadata={'latitude': '30.3531618', 'longitude': '76.3597508', 'filename': '1734521170510_chunk_1734521169093.webm', 'timestamp': 1734521170510}
+2024-12-18 16:56:10,512 - INFO - 127.0.0.1 - - [18/Dec/2024 16:56:10] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:56:24,566 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:56:24,644 - INFO - No pothole detected in 51.
+2024-12-18 16:56:25,800 - INFO - GPS data sent successfully for frame 51 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:56:25,803 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:56:25,804 - DEBUG - Skipping frame 52 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:56:27,072 - INFO - Data added to queue: filename=1734521187071_chunk_1734521185096.webm, metadata={'latitude': '30.3531662', 'longitude': '76.3597594', 'filename': '1734521187071_chunk_1734521185096.webm', 'timestamp': 1734521187071}
+2024-12-18 16:56:27,073 - INFO - 127.0.0.1 - - [18/Dec/2024 16:56:27] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:56:30,738 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:56:35,404 - INFO - Data added to queue: filename=1734521195403_chunk_1734521190063.webm, metadata={'latitude': '30.3531655', 'longitude': '76.3598102', 'filename': '1734521195403_chunk_1734521190063.webm', 'timestamp': 1734521195403}
+2024-12-18 16:56:35,405 - INFO - 127.0.0.1 - - [18/Dec/2024 16:56:35] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:56:35,795 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:56:37,838 - INFO - Data added to queue: filename=1734521197837_chunk_1734521195074.webm, metadata={'latitude': '30.3531657', 'longitude': '76.3598252', 'filename': '1734521197837_chunk_1734521195074.webm', 'timestamp': 1734521197837}
+2024-12-18 16:56:37,839 - INFO - 127.0.0.1 - - [18/Dec/2024 16:56:37] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:56:52,049 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:56:53,915 - INFO - Data added to queue: filename=1734521213914_chunk_1734521211024.webm, metadata={'latitude': '30.353138', 'longitude': '76.3597095', 'filename': '1734521213914_chunk_1734521211024.webm', 'timestamp': 1734521213914}
+2024-12-18 16:56:53,918 - INFO - 127.0.0.1 - - [18/Dec/2024 16:56:53] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:56:54,077 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:56:54,148 - INFO - No pothole detected in 53.
+2024-12-18 16:56:55,089 - INFO - GPS data sent successfully for frame 53 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:56:55,092 - DEBUG - Skipping frame 54 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:56:56,699 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:56:57,873 - INFO - Data added to queue: filename=1734521217872_chunk_1734521216020.webm, metadata={'latitude': '30.3531248', 'longitude': '76.3596805', 'filename': '1734521217872_chunk_1734521216020.webm', 'timestamp': 1734521217872}
+2024-12-18 16:56:57,874 - INFO - 127.0.0.1 - - [18/Dec/2024 16:56:57] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:57:01,732 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:57:02,665 - INFO - Data added to queue: filename=1734521222664_chunk_1734521220997.webm, metadata={'latitude': '30.3531263', 'longitude': '76.35970385', 'filename': '1734521222664_chunk_1734521220997.webm', 'timestamp': 1734521222664}
+2024-12-18 16:57:02,666 - INFO - 127.0.0.1 - - [18/Dec/2024 16:57:02] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:57:07,031 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:57:07,632 - INFO - Data added to queue: filename=1734521227632_chunk_1734521226026.webm, metadata={'latitude': '30.3531252', 'longitude': '76.3597038', 'filename': '1734521227632_chunk_1734521226026.webm', 'timestamp': 1734521227632}
+2024-12-18 16:57:07,644 - INFO - 127.0.0.1 - - [18/Dec/2024 16:57:07] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:57:11,677 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:57:12,385 - INFO - Data added to queue: filename=1734521232385_chunk_1734521231006.webm, metadata={'latitude': '30.3531449', 'longitude': '76.3599202', 'filename': '1734521232385_chunk_1734521231006.webm', 'timestamp': 1734521232385}
+2024-12-18 16:57:12,387 - INFO - 127.0.0.1 - - [18/Dec/2024 16:57:12] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:57:24,101 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:57:24,196 - INFO - No pothole detected in 55.
+2024-12-18 16:57:26,218 - INFO - GPS data sent successfully for frame 55 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:57:26,221 - DEBUG - Skipping frame 56 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:57:54,246 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:57:54,345 - INFO - No pothole detected in 57.
+2024-12-18 16:57:55,202 - INFO - GPS data sent successfully for frame 57 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:57:55,205 - DEBUG - Skipping frame 58 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:58:07,388 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:58:08,290 - INFO - Data added to queue: filename=1734521288289_chunk_1734521286701.webm, metadata={'latitude': '30.3531991', 'longitude': '76.3597018', 'filename': '1734521288289_chunk_1734521286701.webm', 'timestamp': 1734521288289}
+2024-12-18 16:58:08,292 - INFO - 127.0.0.1 - - [18/Dec/2024 16:58:08] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:58:12,724 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:58:13,349 - INFO - Data added to queue: filename=1734521293349_chunk_1734521291678.webm, metadata={'latitude': '30.3531971', 'longitude': '76.359721', 'filename': '1734521293349_chunk_1734521291678.webm', 'timestamp': 1734521293349}
+2024-12-18 16:58:13,350 - INFO - 127.0.0.1 - - [18/Dec/2024 16:58:13] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:58:17,345 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:58:18,306 - INFO - Data added to queue: filename=1734521298305_chunk_1734521296671.webm, metadata={'latitude': '30.3531877', 'longitude': '76.3597836', 'filename': '1734521298305_chunk_1734521296671.webm', 'timestamp': 1734521298305}
+2024-12-18 16:58:18,307 - INFO - 127.0.0.1 - - [18/Dec/2024 16:58:18] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:58:22,352 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:58:23,105 - INFO - Data added to queue: filename=1734521303104_chunk_1734521301682.webm, metadata={'latitude': '30.3531694', 'longitude': '76.3598738', 'filename': '1734521303104_chunk_1734521301682.webm', 'timestamp': 1734521303104}
+2024-12-18 16:58:23,107 - INFO - 127.0.0.1 - - [18/Dec/2024 16:58:23] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:58:23,395 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:58:23,488 - INFO - Pothole detected in frame 59 of video 1734520363717_chunk_1734520360862.webm. Sending GPS data...
+2024-12-18 16:58:25,010 - INFO - GPS data sent successfully for frame 59 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:58:25,013 - DEBUG - Skipping frame 60 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:58:27,386 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:58:28,683 - INFO - Data added to queue: filename=1734521308683_chunk_1734521306703.webm, metadata={'latitude': '30.353165', 'longitude': '76.3599684', 'filename': '1734521308683_chunk_1734521306703.webm', 'timestamp': 1734521308683}
+2024-12-18 16:58:28,684 - INFO - 127.0.0.1 - - [18/Dec/2024 16:58:28] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:58:32,933 - DEBUG - Received POST request on /upload_blob
+2024-12-18 16:58:33,587 - INFO - Data added to queue: filename=1734521313587_chunk_1734521311680.webm, metadata={'latitude': '30.3531583', 'longitude': '76.3600242', 'filename': '1734521313587_chunk_1734521311680.webm', 'timestamp': 1734521313587}
+2024-12-18 16:58:33,598 - INFO - 127.0.0.1 - - [18/Dec/2024 16:58:33] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-18 16:58:54,171 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:58:54,249 - INFO - No pothole detected in 61.
+2024-12-18 16:58:55,615 - INFO - GPS data sent successfully for frame 61 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 16:58:55,618 - DEBUG - Skipping frame 62 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 17:00:55,171 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 17:00:55,255 - INFO - No pothole detected in 63.
+2024-12-18 17:00:57,338 - INFO - GPS data sent successfully for frame 63 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 17:00:57,341 - DEBUG - Skipping frame 64 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 17:01:35,710 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 17:01:35,787 - INFO - No pothole detected in 65.
+2024-12-18 17:01:38,525 - INFO - GPS data sent successfully for frame 65 of video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 17:01:38,528 - DEBUG - Skipping frame 66 in video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 17:02:23,061 - DEBUG - Frame enhanced from video 1734520363717_chunk_1734520360862.webm.
+2024-12-18 17:02:23,154 - INFO - Pothole detected in frame 67 of video 1734520363717_chunk_1734520360862.webm. Sending GPS data...
+2024-12-19 10:19:16,568 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5050
+ * Running on http://172.16.72.147:5050
+2024-12-19 10:19:16,575 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-19 10:20:09,687 - INFO - 127.0.0.1 - - [19/Dec/2024 10:20:09] "[33mGET / HTTP/1.1[0m" 404 -
+2024-12-19 10:20:22,908 - INFO - 127.0.0.1 - - [19/Dec/2024 10:20:22] "[33mGET / HTTP/1.1[0m" 404 -
+2024-12-19 10:21:04,458 - INFO - 127.0.0.1 - - [19/Dec/2024 10:21:04] "GET /test HTTP/1.1" 200 -
+2024-12-19 10:40:26,050 - DEBUG - Received POST request on /upload_blob
+2024-12-19 10:40:26,697 - INFO - Data added to queue: filename=1734585026677_chunk_1734585025334.webm, metadata={'latitude': '30.3553965', 'longitude': '76.369494', 'filename': '1734585026677_chunk_1734585025334.webm', 'timestamp': 1734585026677}
+2024-12-19 10:40:26,701 - INFO - 127.0.0.1 - - [19/Dec/2024 10:40:26] "POST /upload_blob HTTP/1.1" 200 -
+2024-12-19 10:40:59,220 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:41:00,426 - INFO - No pothole detected in 1.
+2024-12-19 10:41:33,010 - ERROR - Error sending GPS data for frame 1 of video 1734585026677_chunk_1734585025334.webm: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-12-19 10:41:33,014 - DEBUG - Skipping frame 2 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:42:04,019 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:42:04,099 - INFO - No pothole detected in 3.
+2024-12-19 10:42:13,137 - INFO - GPS data sent successfully for frame 3 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:42:13,140 - DEBUG - Skipping frame 4 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:42:43,948 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:42:44,027 - INFO - No pothole detected in 5.
+2024-12-19 10:42:45,005 - INFO - GPS data sent successfully for frame 5 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:42:45,007 - DEBUG - Skipping frame 6 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:43:14,250 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:43:14,337 - INFO - No pothole detected in 7.
+2024-12-19 10:43:15,160 - INFO - GPS data sent successfully for frame 7 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:43:15,163 - DEBUG - Skipping frame 8 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:43:43,008 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:43:43,084 - INFO - No pothole detected in 9.
+2024-12-19 10:43:43,972 - INFO - GPS data sent successfully for frame 9 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:43:43,974 - DEBUG - Skipping frame 10 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:44:12,109 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:44:12,187 - INFO - No pothole detected in 11.
+2024-12-19 10:44:13,082 - INFO - GPS data sent successfully for frame 11 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:44:13,084 - DEBUG - Skipping frame 12 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:44:40,599 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:44:40,682 - INFO - No pothole detected in 13.
+2024-12-19 10:44:58,112 - INFO - GPS data sent successfully for frame 13 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:44:58,115 - DEBUG - Skipping frame 14 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:45:31,708 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:45:31,794 - INFO - No pothole detected in 15.
+2024-12-19 10:45:48,396 - ERROR - Error sending GPS data for frame 15 of video 1734585026677_chunk_1734585025334.webm: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-12-19 10:45:48,401 - DEBUG - Skipping frame 16 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:46:16,166 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:46:16,342 - INFO - No pothole detected in 17.
+2024-12-19 10:46:17,138 - INFO - GPS data sent successfully for frame 17 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:46:17,140 - DEBUG - Skipping frame 18 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:46:57,392 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:46:57,527 - INFO - No pothole detected in 19.
+2024-12-19 10:51:28,376 - ERROR - Error sending GPS data for frame 19 of video 1734585026677_chunk_1734585025334.webm: HTTPSConnectionPool(host='potholebackend.onrender.com', port=443): Max retries exceeded with url: /api/location/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+2024-12-19 10:51:28,382 - DEBUG - Skipping frame 20 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:51:53,423 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:51:53,499 - INFO - No pothole detected in 21.
+2024-12-19 10:51:54,468 - INFO - GPS data sent successfully for frame 21 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:51:54,469 - DEBUG - Skipping frame 22 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:52:24,594 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:52:24,672 - INFO - No pothole detected in 23.
+2024-12-19 10:52:25,528 - INFO - GPS data sent successfully for frame 23 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:52:25,530 - DEBUG - Skipping frame 24 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:52:55,073 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:52:55,156 - INFO - No pothole detected in 25.
+2024-12-19 10:53:05,329 - ERROR - Error sending GPS data for frame 25 of video 1734585026677_chunk_1734585025334.webm: HTTPSConnectionPool(host='potholebackend.onrender.com', port=443): Max retries exceeded with url: /api/location/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+2024-12-19 10:53:05,334 - DEBUG - Skipping frame 26 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:53:33,333 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:53:33,405 - INFO - No pothole detected in 27.
+2024-12-19 10:53:42,905 - INFO - GPS data sent successfully for frame 27 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:53:42,908 - DEBUG - Skipping frame 28 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:54:12,782 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:54:12,874 - INFO - No pothole detected in 29.
+2024-12-19 10:54:38,803 - ERROR - Error sending GPS data for frame 29 of video 1734585026677_chunk_1734585025334.webm: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-12-19 10:54:38,813 - DEBUG - Skipping frame 30 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:55:06,621 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:55:06,697 - INFO - No pothole detected in 31.
+2024-12-19 10:55:11,319 - INFO - GPS data sent successfully for frame 31 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:55:11,322 - DEBUG - Skipping frame 32 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:55:36,335 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:55:36,426 - INFO - Pothole detected in frame 33 of video 1734585026677_chunk_1734585025334.webm. Sending GPS data...
+2024-12-19 10:55:38,633 - INFO - GPS data sent successfully for frame 33 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:55:38,636 - DEBUG - Skipping frame 34 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:56:04,822 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:56:04,906 - INFO - Pothole detected in frame 35 of video 1734585026677_chunk_1734585025334.webm. Sending GPS data...
+2024-12-19 10:56:06,173 - INFO - GPS data sent successfully for frame 35 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:56:06,178 - DEBUG - Skipping frame 36 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:56:32,949 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:56:33,016 - INFO - No pothole detected in 37.
+2024-12-19 10:56:34,680 - INFO - GPS data sent successfully for frame 37 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:56:34,682 - DEBUG - Skipping frame 38 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:57:01,610 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:57:01,682 - INFO - No pothole detected in 39.
+2024-12-19 10:57:02,984 - INFO - GPS data sent successfully for frame 39 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:57:02,987 - DEBUG - Skipping frame 40 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:57:30,083 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:57:30,152 - INFO - No pothole detected in 41.
+2024-12-19 10:57:31,498 - INFO - GPS data sent successfully for frame 41 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:57:31,502 - DEBUG - Skipping frame 42 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:57:58,564 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:57:58,640 - INFO - No pothole detected in 43.
+2024-12-19 10:58:02,729 - INFO - GPS data sent successfully for frame 43 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:58:02,733 - DEBUG - Skipping frame 44 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:58:28,036 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:58:28,109 - INFO - No pothole detected in 45.
+2024-12-19 10:58:43,031 - INFO - GPS data sent successfully for frame 45 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:58:43,037 - DEBUG - Skipping frame 46 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:59:15,207 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:59:15,409 - INFO - No pothole detected in 47.
+2024-12-19 10:59:16,326 - INFO - GPS data sent successfully for frame 47 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:59:16,328 - DEBUG - Skipping frame 48 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:59:45,918 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:59:45,987 - INFO - No pothole detected in 49.
+2024-12-19 10:59:46,875 - INFO - GPS data sent successfully for frame 49 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 10:59:46,879 - DEBUG - Skipping frame 50 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:00:14,545 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:00:14,619 - INFO - No pothole detected in 51.
+2024-12-19 11:00:15,443 - INFO - GPS data sent successfully for frame 51 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:00:15,446 - DEBUG - Skipping frame 52 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:00:43,549 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:00:43,625 - INFO - No pothole detected in 53.
+2024-12-19 11:00:44,420 - INFO - GPS data sent successfully for frame 53 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:00:44,425 - DEBUG - Skipping frame 54 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:01:11,965 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:01:12,044 - INFO - No pothole detected in 55.
+2024-12-19 11:01:12,872 - INFO - GPS data sent successfully for frame 55 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:01:12,875 - DEBUG - Skipping frame 56 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:01:40,889 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:01:40,966 - INFO - No pothole detected in 57.
+2024-12-19 11:01:48,711 - INFO - GPS data sent successfully for frame 57 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:01:48,714 - DEBUG - Skipping frame 58 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:02:16,580 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:02:16,653 - INFO - No pothole detected in 59.
+2024-12-19 11:02:38,479 - ERROR - Error sending GPS data for frame 59 of video 1734585026677_chunk_1734585025334.webm: HTTPSConnectionPool(host='potholebackend.onrender.com', port=443): Max retries exceeded with url: /api/location/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+2024-12-19 11:02:38,487 - DEBUG - Skipping frame 60 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:03:06,510 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:03:06,586 - INFO - No pothole detected in 61.
+2024-12-19 11:03:09,526 - INFO - GPS data sent successfully for frame 61 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:03:09,529 - DEBUG - Skipping frame 62 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:03:35,489 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:03:35,565 - INFO - No pothole detected in 63.
+2024-12-19 11:03:45,624 - ERROR - Error sending GPS data for frame 63 of video 1734585026677_chunk_1734585025334.webm: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2024-12-19 11:03:45,627 - DEBUG - Skipping frame 64 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:04:13,218 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:04:13,292 - INFO - No pothole detected in 65.
+2024-12-19 11:04:23,387 - ERROR - Error sending GPS data for frame 65 of video 1734585026677_chunk_1734585025334.webm: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2024-12-19 11:04:23,391 - DEBUG - Skipping frame 66 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:04:52,089 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:04:52,159 - INFO - No pothole detected in 67.
+2024-12-19 11:05:09,068 - ERROR - Error sending GPS data for frame 67 of video 1734585026677_chunk_1734585025334.webm: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-12-19 11:05:09,074 - DEBUG - Skipping frame 68 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:05:39,514 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:05:39,600 - INFO - No pothole detected in 69.
+2024-12-19 11:05:54,697 - INFO - GPS data sent successfully for frame 69 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:05:54,701 - DEBUG - Skipping frame 70 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:06:22,744 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:06:22,831 - INFO - No pothole detected in 71.
+2024-12-19 11:06:23,640 - INFO - GPS data sent successfully for frame 71 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:06:23,644 - DEBUG - Skipping frame 72 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:06:53,054 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:06:53,130 - INFO - No pothole detected in 73.
+2024-12-19 11:06:57,728 - ERROR - Error sending GPS data for frame 73 of video 1734585026677_chunk_1734585025334.webm: HTTPSConnectionPool(host='potholebackend.onrender.com', port=443): Max retries exceeded with url: /api/location/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+2024-12-19 11:06:57,735 - DEBUG - Skipping frame 74 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:07:22,496 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:07:22,587 - INFO - No pothole detected in 75.
+2024-12-19 11:07:25,286 - INFO - GPS data sent successfully for frame 75 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:07:25,288 - DEBUG - Skipping frame 76 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:07:51,205 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:07:51,280 - INFO - No pothole detected in 77.
+2024-12-19 11:07:52,088 - INFO - GPS data sent successfully for frame 77 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:07:52,095 - DEBUG - Skipping frame 78 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:08:19,318 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:08:19,392 - INFO - No pothole detected in 79.
+2024-12-19 11:08:34,995 - ERROR - Error sending GPS data for frame 79 of video 1734585026677_chunk_1734585025334.webm: HTTPSConnectionPool(host='potholebackend.onrender.com', port=443): Max retries exceeded with url: /api/location/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+2024-12-19 11:08:34,998 - DEBUG - Skipping frame 80 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:09:05,747 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:09:05,855 - INFO - No pothole detected in 81.
+2024-12-19 11:09:06,654 - INFO - GPS data sent successfully for frame 81 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:09:06,658 - DEBUG - Skipping frame 82 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:09:35,687 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:09:35,757 - INFO - No pothole detected in 83.
+2024-12-19 11:09:41,062 - ERROR - Error sending GPS data for frame 83 of video 1734585026677_chunk_1734585025334.webm: HTTPSConnectionPool(host='potholebackend.onrender.com', port=443): Max retries exceeded with url: /api/location/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+2024-12-19 11:09:41,064 - DEBUG - Skipping frame 84 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:10:05,109 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:10:05,186 - INFO - No pothole detected in 85.
+2024-12-19 11:10:15,299 - ERROR - Error sending GPS data for frame 85 of video 1734585026677_chunk_1734585025334.webm: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2024-12-19 11:10:15,301 - DEBUG - Skipping frame 86 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:10:42,130 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:10:42,197 - INFO - No pothole detected in 87.
+2024-12-19 11:10:59,777 - ERROR - Error sending GPS data for frame 87 of video 1734585026677_chunk_1734585025334.webm: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-12-19 11:10:59,781 - DEBUG - Skipping frame 88 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:11:30,056 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:11:30,137 - INFO - No pothole detected in 89.
+2024-12-19 11:11:40,221 - ERROR - Error sending GPS data for frame 89 of video 1734585026677_chunk_1734585025334.webm: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2024-12-19 11:11:40,226 - DEBUG - Skipping frame 90 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:12:08,423 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:12:08,513 - INFO - No pothole detected in 91.
+2024-12-19 11:12:18,569 - ERROR - Error sending GPS data for frame 91 of video 1734585026677_chunk_1734585025334.webm: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2024-12-19 11:12:18,573 - DEBUG - Skipping frame 92 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:12:46,163 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:12:46,248 - INFO - No pothole detected in 93.
+2024-12-19 11:12:47,101 - INFO - GPS data sent successfully for frame 93 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:12:47,106 - DEBUG - Skipping frame 94 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:13:14,595 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:13:14,662 - INFO - No pothole detected in 95.
+2024-12-19 11:13:15,435 - INFO - GPS data sent successfully for frame 95 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:13:15,438 - DEBUG - Skipping frame 96 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:13:45,044 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:13:45,118 - INFO - No pothole detected in 97.
+2024-12-19 11:13:46,491 - INFO - GPS data sent successfully for frame 97 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:13:46,493 - DEBUG - Skipping frame 98 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:14:14,879 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:14:14,951 - INFO - No pothole detected in 99.
+2024-12-19 11:14:15,758 - INFO - GPS data sent successfully for frame 99 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:14:15,764 - DEBUG - Skipping frame 100 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:14:42,518 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:14:42,585 - INFO - No pothole detected in 101.
+2024-12-19 11:14:43,499 - INFO - GPS data sent successfully for frame 101 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:14:43,503 - DEBUG - Skipping frame 102 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:15:10,298 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:15:10,374 - INFO - No pothole detected in 103.
+2024-12-19 11:15:20,530 - ERROR - Error sending GPS data for frame 103 of video 1734585026677_chunk_1734585025334.webm: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2024-12-19 11:15:20,533 - DEBUG - Skipping frame 104 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:15:50,420 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:15:50,497 - INFO - No pothole detected in 105.
+2024-12-19 11:15:51,407 - INFO - GPS data sent successfully for frame 105 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:15:51,411 - DEBUG - Skipping frame 106 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:16:20,960 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:16:21,030 - INFO - No pothole detected in 107.
+2024-12-19 11:16:36,592 - INFO - GPS data sent successfully for frame 107 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:16:36,595 - DEBUG - Skipping frame 108 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:17:06,811 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:17:06,885 - INFO - No pothole detected in 109.
+2024-12-19 11:17:22,442 - ERROR - Error sending GPS data for frame 109 of video 1734585026677_chunk_1734585025334.webm: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-12-19 11:17:22,446 - DEBUG - Skipping frame 110 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:17:49,852 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:17:49,949 - INFO - No pothole detected in 111.
+2024-12-19 11:17:50,545 - INFO - GPS data sent successfully for frame 111 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:17:50,556 - DEBUG - Skipping frame 112 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:18:20,135 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:18:20,213 - INFO - No pothole detected in 113.
+2024-12-19 11:18:21,085 - INFO - GPS data sent successfully for frame 113 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:18:21,089 - DEBUG - Skipping frame 114 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:18:51,306 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:18:51,392 - INFO - No pothole detected in 115.
+2024-12-19 11:19:06,816 - ERROR - Error sending GPS data for frame 115 of video 1734585026677_chunk_1734585025334.webm: HTTPSConnectionPool(host='potholebackend.onrender.com', port=443): Max retries exceeded with url: /api/location/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)')))
+2024-12-19 11:19:06,820 - DEBUG - Skipping frame 116 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:19:34,326 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:19:34,398 - INFO - No pothole detected in 117.
+2024-12-19 11:19:35,194 - INFO - GPS data sent successfully for frame 117 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:19:35,196 - DEBUG - Skipping frame 118 in video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:20:05,568 - DEBUG - Frame enhanced from video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:20:05,657 - INFO - No pothole detected in 119.
+2024-12-19 11:20:12,934 - INFO - GPS data sent successfully for frame 119 of video 1734585026677_chunk_1734585025334.webm.
+2024-12-19 11:20:12,949 - INFO - Finished processing video 1734585026677_chunk_1734585025334.webm.
